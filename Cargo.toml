@@ -3,6 +3,11 @@
 name = "cargo-r3"
 version = "0.1.0"
 edition = "2021"
+authors = ["v1xingyue <qixingyue@gmail.com>"]
+description = "One cargo plugin help build rustweb3 apps."
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/rustweb3/cargo-r3"
+repository = "https://github.com/rustweb3/cargo-r3.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
