@@ -6,6 +6,7 @@
 
 ```shell
 cargo install --git https://github.com/rustweb3/cargo-r3.git --branch main
+cargo install cargo-r3
 ```
 
 ## 初始化项目
