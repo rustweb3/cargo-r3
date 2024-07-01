@@ -5,7 +5,7 @@
 ## 安装
 
 ```shell
-cargo install --git https://github.com/rustweb3/cargo-r3.git --branch main --bin cargo-r3
+cargo install --git https://github.com/rustweb3/cargo-r3.git --branch main
 ```
 
 ## 初始化项目
