@@ -36,7 +36,7 @@ pub enum Command {
         name: String,
 
         /// The type of the new thing
-        #[arg(short, long)]
+        #[arg(short, long, default_value = "base")]
         app_type: String,
     },
 }

@@ -19,7 +19,7 @@ async fn main() -> Result<()> {
     let mut runtime = app::RunTime::new();
 
     runtime.hooks.register_hook(HookPoint::RunInit, |_hook| {
-        info!("My Init Hook...");
+        info!("Rustweb3 will be great!");
         Ok(())
     });
 
@@ -39,7 +39,6 @@ async fn main() -> Result<()> {
             jobs::hello_job(&runtime);
         }
         Some(cli::Command::New { name, app_type }) => {
-            info!("name value is :  {}", &name);
             let app_type = template::AppType::from(app_type.as_str());
             template::new_app(&name, app_type)?;
         }

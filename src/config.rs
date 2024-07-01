@@ -5,7 +5,7 @@ use {
     std::{fs, path::PathBuf},
 };
 
-pub const APP_NAME: &str = "rustapp_template";
+pub const APP_NAME: &str = "cargo-r3";
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct MyConfig {
